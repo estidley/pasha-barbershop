@@ -13,11 +13,17 @@ for (let i = 1; ; i++) {
   if (!existsSync(p)) break
   b64 += readFileSync(p, 'utf8').trim()
 }
-if (!b64) {
-  const parts = [1,2,3].map(i => readFileSync(join(dir, `index.part${i}`), 'utf8'))
-  writeFileSync(htmlPath, parts.join(''))
-  console.log('assembled from parts', parts.reduce((a,b)=>a+b.length,0))
-} else {
+if (b64) {
   writeFileSync(htmlPath, Buffer.from(b64, 'base64').toString('utf8'))
   console.log('assembled from b64', Buffer.from(b64,'base64').length)
+} else {
+  const parts = []
+  for (let i = 1; ; i++) {
+    const p = join(dir, `index.part${i}`)
+    if (!existsSync(p)) break
+    parts.push(readFileSync(p, 'utf8'))
+  }
+  if (!parts.length) throw new Error('No index.html, b64, or parts in dist')
+  writeFileSync(htmlPath, parts.join(''))
+  console.log('assembled from parts', parts.reduce((a,b)=>a+b.length,0))
 }
