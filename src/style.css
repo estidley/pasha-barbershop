@@ -371,3 +371,217 @@ h3 {
   max-width: 28rem;
 }
 
+.stat-row div {
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(244, 239, 227, 0.18);
+}
+
+.stat-row dt {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(244, 239, 227, 0.55);
+}
+
+.stat-row dd {
+  margin: 0.25rem 0 0;
+  font-family: var(--display);
+  font-size: 1.55rem;
+}
+
+.hero-card {
+  background: var(--cream);
+  color: var(--ink);
+  border-radius: calc(var(--radius) + 4px);
+  padding: 1.75rem;
+  box-shadow: var(--shadow);
+}
+
+.card-kicker {
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--leaf);
+}
+
+.hero-card h2 {
+  font-size: clamp(1.7rem, 3vw, 2.1rem);
+}
+
+.hero-card h2 span {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.card-city {
+  margin: 0.35rem 0 1.1rem;
+  color: var(--muted);
+}
+
+.card-list {
+  margin: 0 0 1.35rem;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.card-list li {
+  padding-left: 1.15rem;
+  position: relative;
+}
+
+.card-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--gold);
+}
+
+/* Sections */
+.section {
+  padding: 5rem 0;
+}
+
+.section-head {
+  max-width: 40rem;
+  margin-bottom: 2.5rem;
+}
+
+.section-head.light .muted {
+  color: rgba(244, 239, 227, 0.7);
+}
+
+.about {
+  background: var(--cream);
+}
+
+.about-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.about-copy {
+  display: grid;
+  gap: 1rem;
+  font-size: 1.05rem;
+  color: #2b3832;
+}
+
+.about-copy p {
+  margin: 0;
+}
+
+.services {
+  background: var(--cream-soft);
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.service-card {
+  background: var(--white);
+  border: 1px solid rgba(11, 61, 46, 0.08);
+  border-radius: var(--radius);
+  padding: 1.35rem 1.25rem 1.45rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 20, 0.04);
+}
+
+.service-card.featured {
+  background: linear-gradient(160deg, #4a1520, #0a2f24);
+  color: var(--cream);
+  border-color: transparent;
+}
+
+.service-card.featured .price span,
+.service-card.featured p:last-child {
+  color: rgba(244, 239, 227, 0.72);
+}
+
+.price {
+  margin: 0.55rem 0 0.7rem;
+  font-family: var(--display);
+  font-size: 1.7rem;
+}
+
+.price span {
+  font-family: var(--font);
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.service-card p:last-child {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.reviews {
+  background: var(--forest);
+  color: var(--cream);
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.review-grid blockquote {
+  margin: 0;
+  background: rgba(244, 239, 227, 0.06);
+  border: 1px solid rgba(244, 239, 227, 0.12);
+  border-radius: var(--radius);
+  padding: 1.35rem;
+}
+
+.review-grid p {
+  margin: 0 0 1rem;
+  font-family: var(--display);
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+.review-grid footer {
+  color: rgba(244, 239, 227, 0.6);
+  font-size: 0.85rem;
+}
+
+.review-note {
+  margin: 2rem 0 0;
+  color: rgba(244, 239, 227, 0.7);
+  font-size: 0.92rem;
+  max-width: 48rem;
+}
+
+.hours {
+  background: var(--sand);
+}
+
+.hours-grid {
+  display: grid;
+  gap: 1.75rem;
+  align-items: end;
+}
+
+.hours-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--white);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(15, 23, 20, 0.05);
+}
+
+.hours-table th,
+.hours-table td {
