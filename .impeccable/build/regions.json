@@ -1,0 +1,295 @@
+{
+  "allowUncovered": true,
+  "coverageNote": "Original and overlay inspected: flagged cells contain mapped wordmark, rules and service rows, or empty ground. No missing components.",
+  "regions": [
+    {
+      "id": "header",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 84
+      },
+      "note": "Black header with gold lower rule",
+      "container": true
+    },
+    {
+      "id": "logo",
+      "kind": "control",
+      "pixelBox": {
+        "x": 57,
+        "y": 9,
+        "w": 169,
+        "h": 53
+      },
+      "note": "Gold PASHA and white BARBERSHOP home link"
+    },
+    {
+      "id": "nav-services",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1078,
+        "y": 23,
+        "w": 82,
+        "h": 30
+      },
+      "note": "Services navigation link"
+    },
+    {
+      "id": "nav-visit",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1201,
+        "y": 23,
+        "w": 50,
+        "h": 30
+      },
+      "note": "Visit navigation link"
+    },
+    {
+      "id": "nav-book",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1284,
+        "y": 15,
+        "w": 209,
+        "h": 48
+      },
+      "note": "Gold rectangular Book on Booksy control"
+    },
+    {
+      "id": "knot",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 731,
+        "y": 52,
+        "w": 76,
+        "h": 55
+      },
+      "note": "Three interlaced gold angular diamonds centered on rule"
+    },
+    {
+      "id": "pasha-title",
+      "kind": "text",
+      "pixelBox": {
+        "x": 176,
+        "y": 113,
+        "w": 1183,
+        "h": 216
+      },
+      "note": "Dominant gold Roman serif PASHA wordmark"
+    },
+    {
+      "id": "shop-label",
+      "kind": "text",
+      "pixelBox": {
+        "x": 529,
+        "y": 349,
+        "w": 480,
+        "h": 35
+      },
+      "note": "Spaced white BARBERSHOP lettering"
+    },
+    {
+      "id": "label-rule-left",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 261,
+        "y": 366,
+        "w": 244,
+        "h": 6
+      },
+      "note": "Gold horizontal rule left of shop label"
+    },
+    {
+      "id": "label-rule-right",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 1031,
+        "y": 366,
+        "w": 244,
+        "h": 6
+      },
+      "note": "Gold horizontal rule right of shop label"
+    },
+    {
+      "id": "welcome-ground",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 406,
+        "w": 1536,
+        "h": 166
+      },
+      "note": "Gold horizontal welcome band",
+      "container": true
+    },
+    {
+      "id": "welcome-title",
+      "kind": "text",
+      "pixelBox": {
+        "x": 53,
+        "y": 430,
+        "w": 1001,
+        "h": 75
+      },
+      "note": "Turkish barbering in Plano. black heading"
+    },
+    {
+      "id": "welcome-copy",
+      "kind": "text",
+      "pixelBox": {
+        "x": 56,
+        "y": 516,
+        "w": 743,
+        "h": 37
+      },
+      "note": "Haircuts, beard work, and grooming packages. black supporting text"
+    },
+    {
+      "id": "welcome-book",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1128,
+        "y": 446,
+        "w": 357,
+        "h": 86
+      },
+      "note": "Black rectangular Book on Booksy link and gold arrow"
+    },
+    {
+      "id": "menu-heading",
+      "kind": "text",
+      "pixelBox": {
+        "x": 55,
+        "y": 618,
+        "w": 495,
+        "h": 66
+      },
+      "note": "Find your usual. heading"
+    },
+    {
+      "id": "haircut",
+      "kind": "control",
+      "pixelBox": {
+        "x": 56,
+        "y": 701,
+        "w": 833,
+        "h": 58
+      },
+      "note": "Haircut from $25 row with gold lower rule"
+    },
+    {
+      "id": "combo",
+      "kind": "control",
+      "pixelBox": {
+        "x": 56,
+        "y": 771,
+        "w": 833,
+        "h": 58
+      },
+      "note": "Hair and beard from $40 row with gold lower rule"
+    },
+    {
+      "id": "delight",
+      "kind": "control",
+      "pixelBox": {
+        "x": 56,
+        "y": 839,
+        "w": 833,
+        "h": 56
+      },
+      "note": "Turkish Delight $55 row with gold lower rule"
+    },
+    {
+      "id": "signature",
+      "kind": "control",
+      "pixelBox": {
+        "x": 56,
+        "y": 906,
+        "w": 833,
+        "h": 62
+      },
+      "note": "Signature service $85 row with gold lower rule"
+    },
+    {
+      "id": "visit-divider",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 967,
+        "y": 601,
+        "w": 4,
+        "h": 391
+      },
+      "note": "Thin gold vertical section divider"
+    },
+    {
+      "id": "visit-frame",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 1048,
+        "y": 588,
+        "w": 397,
+        "h": 407
+      },
+      "note": "Double pointed arch outline in gold around visit information",
+      "container": true
+    },
+    {
+      "id": "visit-heading",
+      "kind": "text",
+      "pixelBox": {
+        "x": 1130,
+        "y": 681,
+        "w": 235,
+        "h": 49
+      },
+      "note": "Visit Pasha. white heading"
+    },
+    {
+      "id": "visit-address",
+      "kind": "text",
+      "pixelBox": {
+        "x": 1099,
+        "y": 746,
+        "w": 296,
+        "h": 87
+      },
+      "note": "Street address and Plano, TX 75023"
+    },
+    {
+      "id": "visit-phone",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1166,
+        "y": 838,
+        "w": 166,
+        "h": 34
+      },
+      "note": "Telephone link (214) 501-3715"
+    },
+    {
+      "id": "visit-rule",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 1205,
+        "y": 897,
+        "w": 88,
+        "h": 5
+      },
+      "note": "Short gold horizontal rule"
+    },
+    {
+      "id": "visit-directions",
+      "kind": "control",
+      "pixelBox": {
+        "x": 1173,
+        "y": 916,
+        "w": 151,
+        "h": 38
+      },
+      "note": "Get directions underlined link"
+    }
+  ]
+}

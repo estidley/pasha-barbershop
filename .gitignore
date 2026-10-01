@@ -4,3 +4,9 @@ dist
 *.local
 .env
 .env.*
+
+.impeccable/review/
+.impeccable/build/comp-grid.png
+.impeccable/build/font-match/
+.impeccable/build/map-inspections/
+.impeccable/build/scaffold/

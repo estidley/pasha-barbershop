@@ -1,32 +1,27 @@
-const menuBtn = document.querySelector('.menu-btn')
-const mobileNav = document.querySelector('#mobile-nav')
-
-if (menuBtn && mobileNav) {
-  menuBtn.addEventListener('click', () => {
-    const open = menuBtn.getAttribute('aria-expanded') === 'true'
-    menuBtn.setAttribute('aria-expanded', String(!open))
-    mobileNav.hidden = open
-  })
-
-  mobileNav.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-      menuBtn.setAttribute('aria-expanded', 'false')
-      mobileNav.hidden = true
-    })
-  })
-}
-
-// Keep schema.org URL honest once hosted — rewrite if we know location
-const origin = window.location.origin
-if (origin && !origin.includes('localhost')) {
-  const ld = document.querySelector('script[type="application/ld+json"]')
-  if (ld) {
-    try {
-      const data = JSON.parse(ld.textContent || '{}')
-      data.url = origin
-      ld.textContent = JSON.stringify(data)
-    } catch {
-      /* ignore */
+const button = document.querySelector(".menu-button");
+const navigation = document.querySelector("#mobile-nav");
+if (button && navigation) {
+  const closeMenu = () => {
+    button.setAttribute("aria-expanded", "false");
+    button.textContent = "Menu";
+    navigation.hidden = true;
+  };
+  button.addEventListener("click", () => {
+    const open = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!open));
+    button.textContent = open ? "Menu" : "Close";
+    navigation.hidden = open;
+  });
+  navigation.addEventListener("click", (event) => {
+    if (event.target.closest("a")) closeMenu();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !navigation.hidden) {
+      closeMenu();
+      button.focus();
     }
-  }
+  });
+  window.addEventListener("resize", () => {
+    if (getComputedStyle(button).display === "none") closeMenu();
+  });
 }

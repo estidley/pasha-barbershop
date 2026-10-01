@@ -1,0 +1,1581 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-10-01T23:04:00.186Z",
+  "comp": ".impeccable/mocks/pasha-d.png",
+  "warnings": [
+    "region header: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region welcome-ground: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region visit-frame: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+  ],
+  "uncoveredInkCells": [
+    "B3",
+    "C3",
+    "H3",
+    "I3",
+    "A7",
+    "B7",
+    "F7",
+    "G7",
+    "A9",
+    "B9",
+    "F9"
+  ],
+  "compSize": {
+    "width": 1536,
+    "height": 1024
+  },
+  "aspect": 1.5,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#080808",
+      "coverage": 0.7947
+    },
+    {
+      "hex": "#d7b869",
+      "coverage": 0.1798
+    },
+    {
+      "hex": "#f7efe4",
+      "coverage": 0.0107
+    },
+    {
+      "hex": "#685830",
+      "coverage": 0.0088
+    },
+    {
+      "hex": "#9e8951",
+      "coverage": 0.0059
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0118,
+      "strength": 0.2692
+    },
+    {
+      "y": 0.0706,
+      "strength": 0.4246
+    },
+    {
+      "y": 0.1176,
+      "strength": 0.5084
+    },
+    {
+      "y": 0.3176,
+      "strength": 0.886
+    },
+    {
+      "y": 0.3529,
+      "strength": 0.3433
+    },
+    {
+      "y": 0.4,
+      "strength": 1
+    },
+    {
+      "y": 0.4471,
+      "strength": 0.7024
+    },
+    {
+      "y": 0.4941,
+      "strength": 0.3758
+    },
+    {
+      "y": 0.5176,
+      "strength": 0.2013
+    },
+    {
+      "y": 0.5529,
+      "strength": 1
+    },
+    {
+      "y": 0.6235,
+      "strength": 0.273
+    },
+    {
+      "y": 0.6588,
+      "strength": 0.4388
+    },
+    {
+      "y": 0.8118,
+      "strength": 0.2061
+    }
+  ],
+  "regions": [
+    {
+      "id": "header",
+      "kind": "chrome",
+      "note": "Black header with gold lower rule",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.082
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 84
+      },
+      "aspect": 18.2857,
+      "palette": [
+        {
+          "hex": "#080808",
+          "coverage": 0.8779
+        },
+        {
+          "hex": "#d7b869",
+          "coverage": 0.0722
+        },
+        {
+          "hex": "#6a562a",
+          "coverage": 0.0326
+        },
+        {
+          "hex": "#423922",
+          "coverage": 0.009
+        },
+        {
+          "hex": "#9b894c",
+          "coverage": 0.0083
+        }
+      ],
+      "detail": {
+        "energy": 30.8209
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      }
+    },
+    {
+      "id": "logo",
+      "kind": "control",
+      "note": "Gold PASHA and white BARBERSHOP home link",
+      "grid": null,
+      "box": {
+        "x": 0.0371,
+        "y": 0.0088,
+        "w": 0.11,
+        "h": 0.0518
+      },
+      "px": {
+        "x": 57,
+        "y": 9,
+        "w": 169,
+        "h": 53
+      },
+      "aspect": 3.1887,
+      "palette": [
+        {
+          "hex": "#090909",
+          "coverage": 0.8212
+        },
+        {
+          "hex": "#debf70",
+          "coverage": 0.102
+        },
+        {
+          "hex": "#514729",
+          "coverage": 0.0323
+        },
+        {
+          "hex": "#272717",
+          "coverage": 0.0222
+        },
+        {
+          "hex": "#917f49",
+          "coverage": 0.0222
+        }
+      ],
+      "detail": {
+        "energy": 37.0702
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "nav-services",
+      "kind": "control",
+      "note": "Services navigation link",
+      "grid": null,
+      "box": {
+        "x": 0.7018,
+        "y": 0.0225,
+        "w": 0.0534,
+        "h": 0.0293
+      },
+      "px": {
+        "x": 1078,
+        "y": 23,
+        "w": 82,
+        "h": 30
+      },
+      "aspect": 2.7333,
+      "palette": [
+        {
+          "hex": "#090909",
+          "coverage": 0.8188
+        },
+        {
+          "hex": "#646360",
+          "coverage": 0.0761
+        },
+        {
+          "hex": "#f5f5f3",
+          "coverage": 0.0435
+        },
+        {
+          "hex": "#3a3a2f",
+          "coverage": 0.0326
+        },
+        {
+          "hex": "#d0ccca",
+          "coverage": 0.029
+        }
+      ],
+      "detail": {
+        "energy": 26.2595
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "nav-visit",
+      "kind": "control",
+      "note": "Visit navigation link",
+      "grid": null,
+      "box": {
+        "x": 0.7819,
+        "y": 0.0225,
+        "w": 0.0326,
+        "h": 0.0293
+      },
+      "px": {
+        "x": 1201,
+        "y": 23,
+        "w": 50,
+        "h": 30
+      },
+      "aspect": 1.6667,
+      "palette": [
+        {
+          "hex": "#090909",
+          "coverage": 0.8354
+        },
+        {
+          "hex": "#f5f5ec",
+          "coverage": 0.0671
+        },
+        {
+          "hex": "#363432",
+          "coverage": 0.0488
+        },
+        {
+          "hex": "#585858",
+          "coverage": 0.0244
+        },
+        {
+          "hex": "#949490",
+          "coverage": 0.0244
+        }
+      ],
+      "detail": {
+        "energy": 15.8858
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "nav-book",
+      "kind": "control",
+      "note": "Gold rectangular Book on Booksy control",
+      "grid": null,
+      "box": {
+        "x": 0.8359,
+        "y": 0.0146,
+        "w": 0.1361,
+        "h": 0.0469
+      },
+      "px": {
+        "x": 1284,
+        "y": 15,
+        "w": 209,
+        "h": 48
+      },
+      "aspect": 4.3542,
+      "palette": [
+        {
+          "hex": "#d6b869",
+          "coverage": 0.8063
+        },
+        {
+          "hex": "#9c8a4c",
+          "coverage": 0.0843
+        },
+        {
+          "hex": "#0b0908",
+          "coverage": 0.0583
+        },
+        {
+          "hex": "#43341d",
+          "coverage": 0.0314
+        },
+        {
+          "hex": "#73673b",
+          "coverage": 0.0197
+        }
+      ],
+      "detail": {
+        "energy": 28.8606
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "knot",
+      "kind": "chrome",
+      "note": "Three interlaced gold angular diamonds centered on rule",
+      "grid": null,
+      "box": {
+        "x": 0.4759,
+        "y": 0.0508,
+        "w": 0.0495,
+        "h": 0.0537
+      },
+      "px": {
+        "x": 731,
+        "y": 52,
+        "w": 76,
+        "h": 55
+      },
+      "aspect": 1.3818,
+      "palette": [
+        {
+          "hex": "#090909",
+          "coverage": 0.771
+        },
+        {
+          "hex": "#dcba66",
+          "coverage": 0.1738
+        },
+        {
+          "hex": "#857444",
+          "coverage": 0.0225
+        },
+        {
+          "hex": "#b8a060",
+          "coverage": 0.0204
+        },
+        {
+          "hex": "#605035",
+          "coverage": 0.0123
+        }
+      ],
+      "detail": {
+        "energy": 17.001
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "pasha-title",
+      "kind": "text",
+      "note": "Dominant gold Roman serif PASHA wordmark",
+      "grid": null,
+      "box": {
+        "x": 0.1146,
+        "y": 0.1104,
+        "w": 0.7702,
+        "h": 0.2109
+      },
+      "px": {
+        "x": 176,
+        "y": 113,
+        "w": 1183,
+        "h": 216
+      },
+      "aspect": 5.4769,
+      "palette": [
+        {
+          "hex": "#080808",
+          "coverage": 0.6974
+        },
+        {
+          "hex": "#d7b869",
+          "coverage": 0.2913
+        },
+        {
+          "hex": "#352a1a",
+          "coverage": 0.0045
+        },
+        {
+          "hex": "#544727",
+          "coverage": 0.0042
+        },
+        {
+          "hex": "#af9858",
+          "coverage": 0.0026
+        }
+      ],
+      "detail": {
+        "energy": 40.7461
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 4,
+          "capHeightPx": 200.8,
+          "inkIsDark": false,
+          "allCaps": true,
+          "advance": 1.1704,
+          "advTall": 1.1704,
+          "advX": null,
+          "gap": 0.2142,
+          "xRatio": null,
+          "stemW": 0.2173,
+          "contrast": 4.4514,
+          "serif": 1.3625,
+          "densTall": 0.3838,
+          "densX": null,
+          "weight": 0.3838
+        },
+        "widthClass": "wide",
+        "weightClass": "regular",
+        "chosen": {
+          "family": "Ibarra Real Nova",
+          "weight": 700,
+          "fontSizePx": 300,
+          "source": "index",
+          "fp": {
+            "lines": 1,
+            "glyphs": 4,
+            "capHeightPx": 201.7,
+            "inkIsDark": true,
+            "allCaps": true,
+            "advance": 1.1727,
+            "advTall": 1.1727,
+            "advX": null,
+            "gap": 0.0793,
+            "xRatio": null,
+            "stemW": 0.2077,
+            "contrast": 3.8138,
+            "serif": 2.2437,
+            "densTall": 0.3587,
+            "densX": null,
+            "weight": 0.3587
+          },
+          "stamp": "88665d63d119"
+        }
+      }
+    },
+    {
+      "id": "shop-label",
+      "kind": "text",
+      "note": "Spaced white BARBERSHOP lettering",
+      "grid": null,
+      "box": {
+        "x": 0.3444,
+        "y": 0.3408,
+        "w": 0.3125,
+        "h": 0.0342
+      },
+      "px": {
+        "x": 529,
+        "y": 349,
+        "w": 480,
+        "h": 35
+      },
+      "aspect": 13.7143,
+      "palette": [
+        {
+          "hex": "#090909",
+          "coverage": 0.8462
+        },
+        {
+          "hex": "#f7f1e4",
+          "coverage": 0.0988
+        },
+        {
+          "hex": "#635e59",
+          "coverage": 0.0222
+        },
+        {
+          "hex": "#d6cbbe",
+          "coverage": 0.019
+        },
+        {
+          "hex": "#8c877c",
+          "coverage": 0.0137
+        }
+      ],
+      "detail": {
+        "energy": 66.4822
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 10,
+          "capHeightPx": 22.7,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.7489,
+          "advTall": 0.7489,
+          "advX": null,
+          "gap": 0,
+          "xRatio": 0.5862,
+          "stemW": 0.1984,
+          "contrast": 1.1287,
+          "serif": 0.892,
+          "densTall": 0.5864,
+          "densX": null,
+          "weight": 0.5864
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "label-rule-left",
+      "kind": "chrome",
+      "note": "Gold horizontal rule left of shop label",
+      "grid": null,
+      "box": {
+        "x": 0.1699,
+        "y": 0.3574,
+        "w": 0.1589,
+        "h": 0.0059
+      },
+      "px": {
+        "x": 261,
+        "y": 366,
+        "w": 244,
+        "h": 6
+      },
+      "aspect": 40.6667,
+      "palette": [
+        {
+          "hex": "#080808",
+          "coverage": 0.5
+        },
+        {
+          "hex": "#dab968",
+          "coverage": 0.4878
+        },
+        {
+          "hex": "#282818",
+          "coverage": 0.0061
+        },
+        {
+          "hex": "#685828",
+          "coverage": 0.0061
+        }
+      ],
+      "detail": {
+        "energy": 84.015
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      }
+    },
+    {
+      "id": "label-rule-right",
+      "kind": "chrome",
+      "note": "Gold horizontal rule right of shop label",
+      "grid": null,
+      "box": {
+        "x": 0.6712,
+        "y": 0.3574,
+        "w": 0.1589,
+        "h": 0.0059
+      },
+      "px": {
+        "x": 1031,
+        "y": 366,
+        "w": 244,
+        "h": 6
+      },
+      "aspect": 40.6667,
+      "palette": [
+        {
+          "hex": "#080808",
+          "coverage": 0.5061
+        },
+        {
+          "hex": "#d9b968",
+          "coverage": 0.4878
+        },
+        {
+          "hex": "#887838",
+          "coverage": 0.0061
+        }
+      ],
+      "detail": {
+        "energy": 83.9466
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      }
+    },
+    {
+      "id": "welcome-ground",
+      "kind": "chrome",
+      "note": "Gold horizontal welcome band",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0,
+        "y": 0.3965,
+        "w": 1,
+        "h": 0.1621
+      },
+      "px": {
+        "x": 0,
+        "y": 406,
+        "w": 1536,
+        "h": 166
+      },
+      "aspect": 9.253,
+      "palette": [
+        {
+          "hex": "#d6b869",
+          "coverage": 0.752
+        },
+        {
+          "hex": "#080808",
+          "coverage": 0.2023
+        },
+        {
+          "hex": "#a79057",
+          "coverage": 0.0334
+        },
+        {
+          "hex": "#322818",
+          "coverage": 0.0065
+        },
+        {
+          "hex": "#554929",
+          "coverage": 0.0058
+        }
+      ],
+      "detail": {
+        "energy": 52.7473
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": true
+      }
+    },
+    {
+      "id": "welcome-title",
+      "kind": "text",
+      "note": "Turkish barbering in Plano. black heading",
+      "grid": null,
+      "box": {
+        "x": 0.0345,
+        "y": 0.4199,
+        "w": 0.6517,
+        "h": 0.0732
+      },
+      "px": {
+        "x": 53,
+        "y": 430,
+        "w": 1001,
+        "h": 75
+      },
+      "aspect": 13.3467,
+      "palette": [
+        {
+          "hex": "#d4b769",
+          "coverage": 0.6676
+        },
+        {
+          "hex": "#090808",
+          "coverage": 0.2891
+        },
+        {
+          "hex": "#78663c",
+          "coverage": 0.0182
+        },
+        {
+          "hex": "#a58d55",
+          "coverage": 0.0161
+        },
+        {
+          "hex": "#322818",
+          "coverage": 0.009
+        }
+      ],
+      "detail": {
+        "energy": 101.4996
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 14,
+          "capHeightPx": 61.1,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7689,
+          "advTall": 1.1289,
+          "advX": 0.7608,
+          "gap": 0.0327,
+          "xRatio": 0.6892,
+          "stemW": 0.208,
+          "contrast": 2.6184,
+          "serif": 1.5728,
+          "densTall": 0.4833,
+          "densX": 0.5672,
+          "weight": 0.4833
+        },
+        "widthClass": "wide",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "welcome-copy",
+      "kind": "text",
+      "note": "Haircuts, beard work, and grooming packages. black supporting text",
+      "grid": null,
+      "box": {
+        "x": 0.0365,
+        "y": 0.5039,
+        "w": 0.4837,
+        "h": 0.0361
+      },
+      "px": {
+        "x": 56,
+        "y": 516,
+        "w": 743,
+        "h": 37
+      },
+      "aspect": 20.0811,
+      "palette": [
+        {
+          "hex": "#d6b86a",
+          "coverage": 0.7801
+        },
+        {
+          "hex": "#0a0909",
+          "coverage": 0.1099
+        },
+        {
+          "hex": "#867546",
+          "coverage": 0.0454
+        },
+        {
+          "hex": "#aa9458",
+          "coverage": 0.0369
+        },
+        {
+          "hex": "#5b4d2b",
+          "coverage": 0.0276
+        }
+      ],
+      "detail": {
+        "energy": 88.5312
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 34,
+          "capHeightPx": 25.2,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5953,
+          "advTall": 0.6945,
+          "advX": 0.5953,
+          "gap": 0.1191,
+          "xRatio": 0.6917,
+          "stemW": 0.1278,
+          "contrast": 1.127,
+          "serif": 0.9835,
+          "densTall": 0.3922,
+          "densX": 0.4519,
+          "weight": 0.3922
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "welcome-book",
+      "kind": "control",
+      "note": "Black rectangular Book on Booksy link and gold arrow",
+      "grid": null,
+      "box": {
+        "x": 0.7344,
+        "y": 0.4355,
+        "w": 0.2324,
+        "h": 0.084
+      },
+      "px": {
+        "x": 1128,
+        "y": 446,
+        "w": 357,
+        "h": 86
+      },
+      "aspect": 4.1512,
+      "palette": [
+        {
+          "hex": "#080808",
+          "coverage": 0.8612
+        },
+        {
+          "hex": "#d6b769",
+          "coverage": 0.0817
+        },
+        {
+          "hex": "#f1da92",
+          "coverage": 0.0356
+        },
+        {
+          "hex": "#9c8b5f",
+          "coverage": 0.0121
+        },
+        {
+          "hex": "#665e40",
+          "coverage": 0.0094
+        }
+      ],
+      "detail": {
+        "energy": 35.1769
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "menu-heading",
+      "kind": "text",
+      "note": "Find your usual. heading",
+      "grid": null,
+      "box": {
+        "x": 0.0358,
+        "y": 0.6035,
+        "w": 0.3223,
+        "h": 0.0645
+      },
+      "px": {
+        "x": 55,
+        "y": 618,
+        "w": 495,
+        "h": 66
+      },
+      "aspect": 7.5,
+      "palette": [
+        {
+          "hex": "#090909",
+          "coverage": 0.7217
+        },
+        {
+          "hex": "#f7ecdf",
+          "coverage": 0.2274
+        },
+        {
+          "hex": "#a6a095",
+          "coverage": 0.0235
+        },
+        {
+          "hex": "#393633",
+          "coverage": 0.0184
+        },
+        {
+          "hex": "#5f5e50",
+          "coverage": 0.0089
+        }
+      ],
+      "detail": {
+        "energy": 74.5767
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 12,
+          "capHeightPx": 47.4,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.7169,
+          "advTall": 0.4744,
+          "advX": 0.7801,
+          "gap": 0.0633,
+          "xRatio": 0.7048,
+          "stemW": 0.2199,
+          "contrast": 3.1769,
+          "serif": 1.1593,
+          "densTall": 0.5423,
+          "densX": 0.5811,
+          "weight": 0.5423
+        },
+        "widthClass": "wide",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "haircut",
+      "kind": "control",
+      "note": "Haircut from $25 row with gold lower rule",
+      "grid": null,
+      "box": {
+        "x": 0.0365,
+        "y": 0.6846,
+        "w": 0.5423,
+        "h": 0.0566
+      },
+      "px": {
+        "x": 56,
+        "y": 701,
+        "w": 833,
+        "h": 58
+      },
+      "aspect": 14.3621,
+      "palette": [
+        {
+          "hex": "#080808",
+          "coverage": 0.9708
+        },
+        {
+          "hex": "#f4eee1",
+          "coverage": 0.0185
+        },
+        {
+          "hex": "#4b4945",
+          "coverage": 0.006
+        },
+        {
+          "hex": "#c5b9b5",
+          "coverage": 0.0034
+        },
+        {
+          "hex": "#6f6f5f",
+          "coverage": 0.0013
+        }
+      ],
+      "detail": {
+        "energy": 21.6141
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "combo",
+      "kind": "control",
+      "note": "Hair and beard from $40 row with gold lower rule",
+      "grid": null,
+      "box": {
+        "x": 0.0365,
+        "y": 0.7529,
+        "w": 0.5423,
+        "h": 0.0566
+      },
+      "px": {
+        "x": 56,
+        "y": 771,
+        "w": 833,
+        "h": 58
+      },
+      "aspect": 14.3621,
+      "palette": [
+        {
+          "hex": "#080808",
+          "coverage": 0.9505
+        },
+        {
+          "hex": "#f1ede1",
+          "coverage": 0.0261
+        },
+        {
+          "hex": "#3e3935",
+          "coverage": 0.0107
+        },
+        {
+          "hex": "#6a6561",
+          "coverage": 0.0071
+        },
+        {
+          "hex": "#c0baac",
+          "coverage": 0.0056
+        }
+      ],
+      "detail": {
+        "energy": 27.63
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "delight",
+      "kind": "control",
+      "note": "Turkish Delight $55 row with gold lower rule",
+      "grid": null,
+      "box": {
+        "x": 0.0365,
+        "y": 0.8193,
+        "w": 0.5423,
+        "h": 0.0547
+      },
+      "px": {
+        "x": 56,
+        "y": 839,
+        "w": 833,
+        "h": 56
+      },
+      "aspect": 14.875,
+      "palette": [
+        {
+          "hex": "#090808",
+          "coverage": 0.9534
+        },
+        {
+          "hex": "#f7f3e7",
+          "coverage": 0.0269
+        },
+        {
+          "hex": "#575551",
+          "coverage": 0.0118
+        },
+        {
+          "hex": "#333026",
+          "coverage": 0.004
+        },
+        {
+          "hex": "#d8d0c0",
+          "coverage": 0.0038
+        }
+      ],
+      "detail": {
+        "energy": 29.3692
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "signature",
+      "kind": "control",
+      "note": "Signature service $85 row with gold lower rule",
+      "grid": null,
+      "box": {
+        "x": 0.0365,
+        "y": 0.8848,
+        "w": 0.5423,
+        "h": 0.0605
+      },
+      "px": {
+        "x": 56,
+        "y": 906,
+        "w": 833,
+        "h": 62
+      },
+      "aspect": 13.4355,
+      "palette": [
+        {
+          "hex": "#080808",
+          "coverage": 0.9609
+        },
+        {
+          "hex": "#f6f2e7",
+          "coverage": 0.0218
+        },
+        {
+          "hex": "#d0c8bd",
+          "coverage": 0.0071
+        },
+        {
+          "hex": "#9d9a8d",
+          "coverage": 0.0052
+        },
+        {
+          "hex": "#77726e",
+          "coverage": 0.005
+        }
+      ],
+      "detail": {
+        "energy": 26.8269
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "visit-divider",
+      "kind": "chrome",
+      "note": "Thin gold vertical section divider",
+      "grid": null,
+      "box": {
+        "x": 0.6296,
+        "y": 0.5869,
+        "w": 0.0026,
+        "h": 0.3818
+      },
+      "px": {
+        "x": 967,
+        "y": 601,
+        "w": 4,
+        "h": 391
+      },
+      "aspect": 0.0102,
+      "palette": [
+        {
+          "hex": "#101008",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 5.2763
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      }
+    },
+    {
+      "id": "visit-frame",
+      "kind": "chrome",
+      "note": "Double pointed arch outline in gold around visit information",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0.6823,
+        "y": 0.5742,
+        "w": 0.2585,
+        "h": 0.3975
+      },
+      "px": {
+        "x": 1048,
+        "y": 588,
+        "w": 397,
+        "h": 407
+      },
+      "aspect": 0.9754,
+      "palette": [
+        {
+          "hex": "#090808",
+          "coverage": 0.9231
+        },
+        {
+          "hex": "#f3ede4",
+          "coverage": 0.0269
+        },
+        {
+          "hex": "#4e4021",
+          "coverage": 0.0215
+        },
+        {
+          "hex": "#e6bf66",
+          "coverage": 0.02
+        },
+        {
+          "hex": "#39362c",
+          "coverage": 0.0085
+        }
+      ],
+      "detail": {
+        "energy": 35.0397
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "visit-heading",
+      "kind": "text",
+      "note": "Visit Pasha. white heading",
+      "grid": null,
+      "box": {
+        "x": 0.7357,
+        "y": 0.665,
+        "w": 0.153,
+        "h": 0.0479
+      },
+      "px": {
+        "x": 1130,
+        "y": 681,
+        "w": 235,
+        "h": 49
+      },
+      "aspect": 4.7959,
+      "palette": [
+        {
+          "hex": "#090909",
+          "coverage": 0.7363
+        },
+        {
+          "hex": "#f3eadd",
+          "coverage": 0.1603
+        },
+        {
+          "hex": "#bab2a8",
+          "coverage": 0.0524
+        },
+        {
+          "hex": "#3b3933",
+          "coverage": 0.033
+        },
+        {
+          "hex": "#655e59",
+          "coverage": 0.018
+        }
+      ],
+      "detail": {
+        "energy": 53.6544
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 10,
+          "capHeightPx": 32.9,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.5769,
+          "advTall": 0.5465,
+          "advX": 0.592,
+          "gap": 0.0607,
+          "xRatio": 0.694,
+          "stemW": 0.1974,
+          "contrast": 2.4868,
+          "serif": 1.3394,
+          "densTall": 0.4793,
+          "densX": 0.5608,
+          "weight": 0.4793
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "visit-address",
+      "kind": "text",
+      "note": "Street address and Plano, TX 75023",
+      "grid": null,
+      "box": {
+        "x": 0.7155,
+        "y": 0.7285,
+        "w": 0.1927,
+        "h": 0.085
+      },
+      "px": {
+        "x": 1099,
+        "y": 746,
+        "w": 296,
+        "h": 87
+      },
+      "aspect": 3.4023,
+      "palette": [
+        {
+          "hex": "#090909",
+          "coverage": 0.882
+        },
+        {
+          "hex": "#f5f2ed",
+          "coverage": 0.055
+        },
+        {
+          "hex": "#c3beb6",
+          "coverage": 0.0254
+        },
+        {
+          "hex": "#545150",
+          "coverage": 0.0215
+        },
+        {
+          "hex": "#8a8880",
+          "coverage": 0.0162
+        }
+      ],
+      "detail": {
+        "energy": 56.8881
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 3,
+          "glyphs": 36,
+          "capHeightPx": 17.1,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6304,
+          "advTall": 0.6291,
+          "advX": 0.6304,
+          "gap": 0.1433,
+          "xRatio": 0.7169,
+          "stemW": 0.1411,
+          "contrast": 1.0894,
+          "serif": 0.8947,
+          "densTall": 0.4334,
+          "densX": 0.5114,
+          "weight": 0.4334
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "visit-phone",
+      "kind": "control",
+      "note": "Telephone link (214) 501-3715",
+      "grid": null,
+      "box": {
+        "x": 0.7591,
+        "y": 0.8184,
+        "w": 0.1081,
+        "h": 0.0332
+      },
+      "px": {
+        "x": 1166,
+        "y": 838,
+        "w": 166,
+        "h": 34
+      },
+      "aspect": 4.8824,
+      "palette": [
+        {
+          "hex": "#0a0a09",
+          "coverage": 0.8511
+        },
+        {
+          "hex": "#ebe7de",
+          "coverage": 0.0857
+        },
+        {
+          "hex": "#aca39f",
+          "coverage": 0.0316
+        },
+        {
+          "hex": "#797873",
+          "coverage": 0.018
+        },
+        {
+          "hex": "#2d2c26",
+          "coverage": 0.0135
+        }
+      ],
+      "detail": {
+        "energy": 42.0824
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "visit-rule",
+      "kind": "chrome",
+      "note": "Short gold horizontal rule",
+      "grid": null,
+      "box": {
+        "x": 0.7845,
+        "y": 0.876,
+        "w": 0.0573,
+        "h": 0.0049
+      },
+      "px": {
+        "x": 1205,
+        "y": 897,
+        "w": 88,
+        "h": 5
+      },
+      "aspect": 17.6,
+      "palette": [
+        {
+          "hex": "#343018",
+          "coverage": 0.6167
+        },
+        {
+          "hex": "#251716",
+          "coverage": 0.3833
+        }
+      ],
+      "detail": {
+        "energy": 53.447
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      }
+    },
+    {
+      "id": "visit-directions",
+      "kind": "control",
+      "note": "Get directions underlined link",
+      "grid": null,
+      "box": {
+        "x": 0.7637,
+        "y": 0.8945,
+        "w": 0.0983,
+        "h": 0.0371
+      },
+      "px": {
+        "x": 1173,
+        "y": 916,
+        "w": 151,
+        "h": 38
+      },
+      "aspect": 3.9737,
+      "palette": [
+        {
+          "hex": "#090909",
+          "coverage": 0.8
+        },
+        {
+          "hex": "#f8d777",
+          "coverage": 0.0734
+        },
+        {
+          "hex": "#f2f0ec",
+          "coverage": 0.0625
+        },
+        {
+          "hex": "#adaca3",
+          "coverage": 0.0406
+        },
+        {
+          "hex": "#363432",
+          "coverage": 0.0234
+        }
+      ],
+      "detail": {
+        "energy": 47.1183
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    }
+  ],
+  "compSha256": "a8bd87fb1cd377e5cf255e5decbe2ed814d3672530a586f37d9aa87d36e2aa3f",
+  "regionsSource": {
+    "path": ".impeccable/build/regions.json",
+    "sha256": "1725b2598eb4695c5e4d1558cd45913a21d73671a19b81deb7fdc1b153de7a19"
+  }
+}

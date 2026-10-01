@@ -1,11 +1,11 @@
 [phases.setup]
-nixPkgs = ["nodejs_20"]
+nixPkgs = ["nodejs_22"]
 
 [phases.install]
-cmds = ["npm ci || npm install --omit=dev"]
+cmds = ["npm ci --include=dev"]
 
 [phases.build]
-cmds = ["echo 'Using committed dist'"]
+cmds = ["npm run build"]
 
 [start]
 cmd = "npm start"

@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-01T23:35:33.653Z",
+  "title": "Design System: Pasha Barbershop",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "gold": {
+        "role": "primary",
+        "displayName": "Gold",
+        "tonalRamp": [
+          "oklch(15% 0.1048 88.54)",
+          "oklch(26.43% 0.1048 88.54)",
+          "oklch(37.86% 0.1048 88.54)",
+          "oklch(49.29% 0.1048 88.54)",
+          "oklch(60.71% 0.1048 88.54)",
+          "oklch(72.14% 0.1048 88.54)",
+          "oklch(83.57% 0.1048 88.54)",
+          "oklch(95% 0.1048 88.54)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0170 76.11)",
+          "oklch(26.43% 0.0170 76.11)",
+          "oklch(37.86% 0.0170 76.11)",
+          "oklch(49.29% 0.0170 76.11)",
+          "oklch(60.71% 0.0170 76.11)",
+          "oklch(72.14% 0.0170 76.11)",
+          "oklch(83.57% 0.0170 76.11)",
+          "oklch(95% 0.0170 76.11)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0301 82.58)",
+          "oklch(26.43% 0.0301 82.58)",
+          "oklch(37.86% 0.0301 82.58)",
+          "oklch(49.29% 0.0301 82.58)",
+          "oklch(60.71% 0.0301 82.58)",
+          "oklch(72.14% 0.0301 82.58)",
+          "oklch(83.57% 0.0301 82.58)",
+          "oklch(95% 0.0301 82.58)"
+        ]
+      },
+      "line": {
+        "role": "primary",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0712 88.94)",
+          "oklch(26.43% 0.0712 88.94)",
+          "oklch(37.86% 0.0712 88.94)",
+          "oklch(49.29% 0.0712 88.94)",
+          "oklch(60.71% 0.0712 88.94)",
+          "oklch(72.14% 0.0712 88.94)",
+          "oklch(83.57% 0.0712 88.94)",
+          "oklch(95% 0.0712 88.94)"
+        ]
+      },
+      "gold-hover": {
+        "role": "primary",
+        "displayName": "Gold hover",
+        "tonalRamp": [
+          "oklch(15% 0.0886 89.61)",
+          "oklch(26.43% 0.0886 89.61)",
+          "oklch(37.86% 0.0886 89.61)",
+          "oklch(49.29% 0.0886 89.61)",
+          "oklch(60.71% 0.0886 89.61)",
+          "oklch(72.14% 0.0886 89.61)",
+          "oklch(83.57% 0.0886 89.61)",
+          "oklch(95% 0.0886 89.61)"
+        ]
+      },
+      "black-hover": {
+        "role": "neutral",
+        "displayName": "Black hover",
+        "tonalRamp": [
+          "oklch(15% 0.0187 88.80)",
+          "oklch(26.43% 0.0187 88.80)",
+          "oklch(37.86% 0.0187 88.80)",
+          "oklch(49.29% 0.0187 88.80)",
+          "oklch(60.71% 0.0187 88.80)",
+          "oklch(72.14% 0.0187 88.80)",
+          "oklch(83.57% 0.0187 88.80)",
+          "oklch(95% 0.0187 88.80)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Shop name",
+        "purpose": "Identity lettering only."
+      },
+      "headline": {
+        "displayName": "Section heading",
+        "purpose": "Short headings."
+      },
+      "title": {
+        "displayName": "Service row",
+        "purpose": "Service names and prices."
+      },
+      "body": {
+        "displayName": "Supporting copy",
+        "purpose": "Prose, contact details, and disclosures."
+      },
+      "button": {
+        "displayName": "Booking",
+        "purpose": "Serif booking controls."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-state",
+        "value": "0.2s ease",
+        "purpose": "Background and text changes on booking controls; disclosure icon rotation."
+      },
+      {
+        "name": "service-state",
+        "value": "0.18s ease",
+        "purpose": "Service-row border and color changes."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition: none; scroll-behavior: auto",
+        "purpose": "Applied when prefers-reduced-motion is reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1800px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1150px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "750px"
+      },
+      {
+        "name": "small-mobile-max",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Gold booking control",
+      "kind": "button",
+      "refersTo": "button-gold",
+      "description": "Booksy link with the implemented hover and keyboard focus states.",
+      "html": "<a class=\"ds-button\" href=\"https://booksy.com/en-us/1061273_pasha-barbershop_barber-shop_36433_plano\">Book on Booksy <svg class=\"ds-arrow\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 12h17M14 5l7 7-7 7\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:22px;min-height:48px;padding:9px 30px;font:700 24px/1.2 var(--display,\"Ibarra Real Nova\",Georgia,serif);text-decoration:none;border:1px solid transparent;transition:background .2s ease,color .2s ease}.ds-arrow{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.7;flex-shrink:0}.ds-button{background:var(--gold,#d7b869);color:var(--ink,#0b0b0b)}.ds-button:hover{background:#ead18f;color:var(--ink,#0b0b0b)}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-row:focus-visible,.ds-details summary:focus-visible{outline:3px solid currentColor;outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-button,.ds-row,.ds-details summary>span{transition:none}}"
+    },
+    {
+      "name": "Black booking control",
+      "kind": "button",
+      "refersTo": "button-black",
+      "description": "Booksy link with the implemented hover and keyboard focus states.",
+      "html": "<a class=\"ds-button\" href=\"https://booksy.com/en-us/1061273_pasha-barbershop_barber-shop_36433_plano\">Book on Booksy <svg class=\"ds-arrow\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 12h17M14 5l7 7-7 7\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:22px;min-height:48px;padding:9px 30px;font:700 24px/1.2 var(--display,\"Ibarra Real Nova\",Georgia,serif);text-decoration:none;border:1px solid transparent;transition:background .2s ease,color .2s ease}.ds-arrow{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.7;flex-shrink:0}.ds-button{background:var(--ink,#0b0b0b);color:var(--gold,#d7b869)}.ds-button:hover{background:#29251b;color:var(--paper,#f7efe4)}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-row:focus-visible,.ds-details summary:focus-visible{outline:3px solid currentColor;outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-button,.ds-row,.ds-details summary>span{transition:none}}"
+    },
+    {
+      "name": "Desktop navigation",
+      "kind": "nav",
+      "description": "Simple underlined hover links; the page replaces this row with an accessible menu on mobile.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#services\">Services</a><a href=\"#visit\">Visit</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:48px;background:var(--ink,#0b0b0b);color:var(--paper,#f7efe4);padding:12px;font:400 24px var(--display,\"Ibarra Real Nova\",Georgia,serif)}.ds-nav a{color:inherit;padding-block:12px;text-decoration:none;}.ds-nav a:hover{text-decoration:underline;text-underline-offset:6px;color:var(--gold,#d7b869)}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-row:focus-visible,.ds-details summary:focus-visible{outline:3px solid currentColor;outline-offset:6px}"
+    },
+    {
+      "name": "Service row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "A whole-row booking link with aligned price and a thin separator.",
+      "html": "<div class=\"ds-menu\"><a class=\"ds-row\" href=\"https://booksy.com/en-us/1061273_pasha-barbershop_barber-shop_36433_plano\"><span>Haircut</span><span><small>from</small> $25</span></a></div>",
+      "css": ".ds-menu{background:var(--ink,#0b0b0b);color:var(--paper,#f7efe4);padding:12px}.ds-row{display:flex;justify-content:space-between;gap:20px;min-height:69px;padding:10px 0;border-bottom:1px solid var(--line,#8b7847);font:400 clamp(26px,2.35vw,38px)/1.25 var(--display,\"Ibarra Real Nova\",Georgia,serif);transition:border-color .18s ease,color .18s ease;align-items:center;color:inherit;text-decoration:none}.ds-row:hover{color:var(--gold,#d7b869);border-color:var(--gold,#d7b869)}.ds-row>span:last-child{font-variant-numeric:tabular-nums;white-space:nowrap}.ds-row small{font-size:.7em}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-row:focus-visible,.ds-details summary:focus-visible{outline:3px solid currentColor;outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-button,.ds-row,.ds-details summary>span{transition:none}}"
+    },
+    {
+      "name": "Native service disclosure",
+      "kind": "custom",
+      "description": "Real details/summary element with an inline SVG plus that rotates on open.",
+      "html": "<div class=\"ds-menu\"><details class=\"ds-details\"><summary>More services &amp; package details<span aria-hidden=\"true\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 9h12M9 3v12\"/></svg></span></summary><dl><div><dt>Beard trim</dt><dd>$25</dd></div></dl></details></div>",
+      "css": ".ds-menu{background:var(--ink,#0b0b0b);color:var(--paper,#f7efe4);padding:12px;font:16px/1.55 var(--body,\"Manrope\",sans-serif)}.ds-details{margin-top:26px;border-bottom:1px solid var(--line,#8b7847);padding-bottom:8px}.ds-details summary{display:flex;align-items:center;justify-content:space-between;gap:18px;list-style:none;cursor:pointer;min-height:48px;font-size:16px}.ds-details summary::-webkit-details-marker{display:none}.ds-details summary>span{display:inline-flex;flex:0 0 18px;transition:transform .2s ease}.ds-details[open] summary>span{transform:rotate(45deg)}.ds-details dl{margin:20px 0 0}.ds-details dl>div{display:flex;justify-content:space-between;gap:24px;padding:8px 0}.ds-details dd{margin:0;font-variant-numeric:tabular-nums}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-row:focus-visible,.ds-details summary:focus-visible{outline:3px solid currentColor;outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-button,.ds-row,.ds-details summary>span{transition:none}}"
+    },
+    {
+      "name": "Pointed visit arch",
+      "kind": "custom",
+      "description": "Double SVG outline around selectable location text.",
+      "html": "<div class=\"ds-arch\"><svg class=\"ds-outline\" viewBox=\"0 0 400 420\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path d=\"M5 420V181C5 94 66 51 200 5C334 51 395 94 395 181V420M17 420V181C17 101 78 60 200 17C322 60 383 101 383 181V420\"/></svg><div class=\"ds-copy\"><h2>Visit Pasha</h2><address>6921 Independence Pkwy<br>Suite 180<br>Plano, TX 75023</address></div></div>",
+      "css": ".ds-arch{position:relative;padding:88px 22px 32px;max-width:400px;min-height:407px;background:var(--ink,#0b0b0b);color:var(--paper,#f7efe4);text-align:center}.ds-outline{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:var(--gold,#d7b869);stroke-width:2;pointer-events:none}.ds-copy{position:relative}.ds-copy h2{font:700 48px/1.1 var(--display,\"Ibarra Real Nova\",Georgia,serif);margin:0 0 16px}.ds-copy address{font:normal 23px/1.4 var(--body,\"Manrope\",sans-serif);white-space:nowrap}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Pasha Shopfront",
+    "overview": "The approved world puts the shop's name in large Roman serif letters against near-black. Matte gold fills the welcome band and marks the controls, rules, and geometric ornament. Warm white keeps the service menu readable.\n\nThe page stays compact and direct. Open rows and a pointed arch give services and contact details their own shapes without turning them into cards. This records the implemented world selected in mockup D; the page-specific composition remains in `.impeccable/surfaces/index-html.md`.",
+    "keyCharacteristics": [
+      "Large serif lettering with plain sans-serif supporting text.",
+      "Black and matte gold fields with warm white text.",
+      "Thin rules, a small angular knot, and a double pointed arch.",
+      "Open service rows and square booking controls."
+    ],
+    "rules": [
+      {
+        "name": "The Gold Field Rule",
+        "body": "Gold can occupy a full band; do not reduce it to a tiny accent throughout this world.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do keep large serif identity lettering, open service rows, and the pointed arch distinct from Fresh Me Up's hexagonal world.",
+      "Do use gold for both broad fields and precise linework.",
+      "Do keep booking, contact details, and disclosure controls as accessible HTML."
+    ],
+    "donts": [
+      "Don't add a fez, red accents, invented shop photographs, or invented reviews.",
+      "Don't replace the square controls and open rows with rounded cards or shadowed panels.",
+      "Don't turn the masthead's spaced identity lettering into repeated section eyebrows."
+    ]
+  }
+}
