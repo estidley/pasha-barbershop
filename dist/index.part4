@@ -1,0 +1,52 @@
+              clients praise sharp fades, patient barbers, and hospitality that feels like more than a quick trim.
+            </p>
+            <p>
+              Public reviews often name Murat, Ferhat, Yasar, Fady, Kamil, and others for listening closely
+              and delivering precise work. Book ahead on Booksy or call the shop.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services" id="services">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="eyebrow">Services &amp; pricing</p>
+            <h2>What we cut — and what it costs.</h2>
+            <p class="muted">Menu from the shop’s public Booksy listing. Confirm when you book.</p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card featured">
+              <h3>Haircut</h3>
+              <p class="price">$25–$30 <span>· 30–40 min</span></p>
+              <p>Men’s cuts and fades with clean finishes.</p>
+            </article>
+            <article class="service-card featured">
+              <h3>Hair &amp; beard</h3>
+              <p class="price">$40–$45 <span>· 30–45 min</span></p>
+              <p>Full look — cut plus beard shape and lineup.</p>
+            </article>
+            <article class="service-card">
+              <h3>Beard trim</h3>
+              <p class="price">$25 <span>· 25 min</span></p>
+              <p>Beard trim or shave with hot towel.</p>
+            </article>
+            <article class="service-card">
+              <h3>Turkish Delight</h3>
+              <p class="price">$55 <span>· 40 min</span></p>
+              <p>Shampoo, haircut, beard trim, and wax.</p>
+            </article>
+            <article class="service-card">
+              <h3>Signature service</h3>
+              <p class="price">$85 <span>· 70 min</span></p>
+              <p>Shampoo, haircut, beard trim, wax, and facial.</p>
+            </article>
+            <article class="service-card">
+              <h3>Kid’s haircut</h3>
+              <p class="price">$25 <span>· 30 min</span></p>
+              <p>Patient, kid-friendly chairs for little ones.</p>
+            </article>
+            <article class="service-card">
+              <h3>Head shave + hot towel</h3>
+              <p class="price">$35 <span>· 30 min</span></p>
+              <p>Clean head shave with hot towel finish.</p>
