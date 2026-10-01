@@ -20,4 +20,30 @@
     />
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="theme-color" content="#4A1520
+    <meta name="theme-color" content="#4A1520" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BarberShop",
+        "name": "Pasha Barbershop",
+        "alternateName": ["صالون باشا", "Paşa Barbershop"],
+        "url": "https://example.up.railway.app",
+        "telephone": "+1-214-501-3715",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6921 Independence Pkwy #180",
+          "addressLocality": "Plano",
+          "addressRegion": "TX",
+          "postalCode": "75023",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 33.0713626,
+          "longitude": -96.7523585
+        },
+        "openingHoursSpecification": [
