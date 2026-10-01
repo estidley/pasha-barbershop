@@ -1,0 +1,50 @@
+            </article>
+            <article class="service-card">
+              <h3>Extras</h3>
+              <p class="price">from $5</p>
+              <p>Shampoo, waxing, threading, color, black mask, facial.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews" id="reviews">
+        <div class="wrap">
+          <div class="section-head light">
+            <p class="eyebrow">From the chairs</p>
+            <h2>What clients say — paraphrased honestly.</h2>
+            <p class="muted">Synthesized from public Booksy / Google-style feedback. Not verbatim quotes.</p>
+          </div>
+          <div class="review-grid">
+            <blockquote>
+              <p>Precise fades and beard work — barbers who listen and take their time until it looks right.</p>
+              <footer>— Regular · Hair &amp; beard</footer>
+            </blockquote>
+            <blockquote>
+              <p>Clean, modern shop with a welcoming Turkish vibe — tea, hospitality, and consistently sharp cuts.</p>
+              <footer>— Local client</footer>
+            </blockquote>
+            <blockquote>
+              <p>Go-to spot for Plano / Frisco / Allen — great with kids and detail-obsessed about lineups.</p>
+              <footer>— Parent · Family cuts</footer>
+            </blockquote>
+            <blockquote>
+              <p>Skilled crew (Murat, Ferhat, Yasar, and others) — fair prices and results that keep you coming back.</p>
+              <footer>— First-time → regular</footer>
+            </blockquote>
+          </div>
+          <p class="review-note">
+            Public listings show roughly <strong>4.9★</strong> with about <strong>1,259 Google reviews</strong>
+            (aggregator labeled as Google; sheet notes once listed 1,361) and a matching 4.9 Booksy score across 650+ visits.
+            Direct Maps HTML was JS/captcha-gated for this build; count used is the latest Google-labeled third-party figure above 50.
+          </p>
+        </div>
+      </section>
+
+      <section class="section hours" id="hours">
+        <div class="wrap hours-grid">
+          <div>
+            <p class="eyebrow">Hours</p>
+            <h2>Open seven days.</h2>
+            <p class="muted">From public listings (Booksy / directories) — confirm on Booksy or by phone before you drive over.</p>
+          </div>

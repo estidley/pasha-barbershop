@@ -1,0 +1,52 @@
+          <table class="hours-table">
+            <tbody>
+              <tr><th>Monday – Saturday</th><td>10:30 AM – 9:00 PM</td></tr>
+              <tr><th>Sunday</th><td>10:30 AM – 6:00 PM</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section visit" id="visit">
+        <div class="wrap visit-grid">
+          <div>
+            <p class="eyebrow">Find us</p>
+            <h2>Suite 180 on Independence Pkwy.</h2>
+            <address>
+              Pasha Barbershop<br />
+              6921 Independence Pkwy #180<br />
+              Plano, TX 75023
+            </address>
+            <p>
+              <a href="tel:+12145013715">(214) 501-3715</a><br />
+              <a href="https://booksy.com/en-us/1061273_pasha-barbershop_barber-shop_36433_plano" target="_blank" rel="noopener noreferrer">Book on Booksy</a>
+            </p>
+            <div class="visit-actions">
+              <a class="btn btn-gold" href="https://maps.app.goo.gl/8HNzHA7mVZB95eW88" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+              <a class="btn btn-outline-dark" href="https://www.google.com/maps/dir/?api=1&destination=6921+Independence+Pkwy+%23180,+Plano,+TX+75023" target="_blank" rel="noopener noreferrer">Directions</a>
+            </div>
+          </div>
+          <div class="map-frame">
+            <iframe
+              title="Map of Pasha Barbershop in Plano"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=6921%20Independence%20Pkwy%20%23180%2C%20Plano%2C%20TX%2075023&z=15&output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div class="wrap cta-inner">
+          <h2>Ready for a Paşa cut?</h2>
+          <p>Book online or call the shop — appointments recommended; packages from classic cuts to full Turkish Delight.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold btn-lg" href="https://booksy.com/en-us/1061273_pasha-barbershop_barber-shop_36433_plano" target="_blank" rel="noopener noreferrer">Book on Booksy</a>
+            <a class="btn btn-outline btn-lg" href="tel:+12145013715">Call (214) 501-3715</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
