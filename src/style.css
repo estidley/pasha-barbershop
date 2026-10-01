@@ -247,3 +247,127 @@ h3 {
   font-size: 0.72rem;
   color: rgba(244, 239, 227, 0.65);
   text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.nav {
+  display: none;
+  gap: 1.25rem;
+  margin-left: 1rem;
+}
+
+.nav a {
+  color: rgba(244, 239, 227, 0.82);
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: var(--gold-bright);
+}
+
+.header-cta {
+  display: none;
+  gap: 0.6rem;
+  margin-left: auto;
+}
+
+.menu-btn {
+  margin-left: auto;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 12px;
+  background: rgba(244, 239, 227, 0.08);
+  display: grid;
+  place-content: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.menu-btn span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: var(--cream);
+}
+
+.mobile-nav {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.5rem 1.25rem 1.25rem;
+  border-top: 1px solid rgba(244, 239, 227, 0.08);
+}
+
+.mobile-nav a {
+  color: var(--cream);
+  text-decoration: none;
+  padding: 0.7rem 0.4rem;
+  font-weight: 500;
+}
+
+.mobile-nav .btn {
+  margin-top: 0.4rem;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  background: var(--forest-deep);
+  color: var(--cream);
+  overflow: hidden;
+  padding: 4.5rem 0 5rem;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 85% 15%, rgba(201, 162, 39, 0.22), transparent 55%),
+    radial-gradient(ellipse 50% 60% at 10% 90%, rgba(26, 92, 69, 0.55), transparent 50%),
+    linear-gradient(160deg, #2f0d14 0%, #4a1520 55%, #0a2f24 100%);
+  pointer-events: none;
+}
+
+.hero-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    -12deg,
+    transparent,
+    transparent 18px,
+    rgba(244, 239, 227, 0.015) 18px,
+    rgba(244, 239, 227, 0.015) 19px
+  );
+}
+
+.hero-grid {
+  position: relative;
+  display: grid;
+  gap: 2.5rem;
+  align-items: end;
+}
+
+.lede {
+  font-size: 1.1rem;
+  max-width: 36rem;
+  color: rgba(244, 239, 227, 0.82);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.75rem 0 2rem;
+}
+
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0;
+  max-width: 28rem;
+}
+
